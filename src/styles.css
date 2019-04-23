@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: url(http://qaforce.co.uk/wp-content/uploads/2018/01/approved-for-qa-1s2787.jpg)
+    no-repeat 50% 50% / cover;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100%;
+}
+
+.header {
+  color: purple;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  border: 2px solid #333333;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.container h2 {
+  width: 100%;
+}
+
+.container button {
+  background: purple;
+  color: #ffffff;
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  transition: 0.3s all;
+  outline: none;
+  border-radius: 5px;
+}
+
+.container button:hover {
+  background: #c54ec5;
+  cursor: pointer;
+}
